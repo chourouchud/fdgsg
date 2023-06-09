@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Alert</title>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password").value;
+
+      if (password === "12345") {
+        alert("Password is correct!");
+      } else {
+        alert("Incorrect password!");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Password Import</h1>
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="checkPassword()">Submit</button>
+</body>
+</html>

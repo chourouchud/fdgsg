@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Verification</title>
+</head>
+<body>
+  <h1>Password Verification</h1>
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="checkPassword()">Submit</button>
+
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password").value;
+
+      if (password === "12345") {
+        alert("Password is correct!");
+      } else {
+        alert("Incorrect password!");
+      }
+    }
+  </script>
+</body>
+</html>
+
